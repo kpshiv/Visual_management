@@ -1,0 +1,25 @@
+<div class="wrapper">
+    <div class="logo">
+      <img src="" alt="">
+    </div>
+  
+    <div class="text-center mt-4 name">
+      Login
+    </div>
+    <form class="p-3 mt-3" (ngSubmit)="onSubmit()">
+      <div class="form-field d-flex align-items-center">
+        <span class="far fa-user"></span>
+        <input type="text" name="userName" id="user_name"  
+               [(ngModel)]="loginmodel.user_name" required placeholder="Username">
+      </div>
+      <div class="form-field d-flex align-items-center">
+        <span class="fas fa-key"></span>
+        <input type="password" name="password" id="pwd" [(ngModel)]="loginmodel.password" required placeholder="Password">
+      </div>
+      <button type="submit" class="btn mt-3">Login</button>
+    </form>
+    <div class="text-center fs-6">
+      <a href="#">Forget password?</a> or <a href="#">Sign up</a>
+    </div>
+  </div>
+  
