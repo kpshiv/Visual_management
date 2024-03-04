@@ -1,14 +1,5 @@
 <div id="main-wrapper">
-  <div class="nav-header">
-    <a href="#" class="brand-logo">
-      <img class="logo-abbr" [src]="logoImage" alt="Logo Image">
-    </a>
-    <div class="nav-control" (click)="toggleLogo()">
-      <div class="hamburger">
-        <span class="line"></span><span class="line"></span><span class="line"></span>
-      </div>
-    </div>
-  </div>
+  <app-logo></app-logo>
   <app-header></app-header>
   <app-sidebar></app-sidebar>
   <!--* Content body Start *-->
@@ -266,6 +257,7 @@
                 </div>
               </div>
             </div>
+            
             <!-- Design for Account sections -->
             <!-- <div class="col-xl-12">
               <div class="card overflow-hidden">
@@ -295,6 +287,7 @@
                 </div>
               </div>
             </div> -->
+            
             <div class="col-xl-12">
               <div class="card message-bx">
                 <div class="card-header border-0 d-sm-flex d-block pb-0">
@@ -765,4 +758,4 @@
   </div>
   <!--* Content body End *-->
   <app-footer></app-footer>
-</div>
+  </div>

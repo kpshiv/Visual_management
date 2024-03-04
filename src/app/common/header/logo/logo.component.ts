@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-teachers',
-  templateUrl: './teachers.component.html',
+  selector: 'app-logo',
+  templateUrl: './logo.component.html',
 })
-export class TeachersComponent {
-  logoImage: string = '../../assets/icons/logo.png';
-  smallLogoImage: string = '../../assets/icons/SmallLogo.png';
+export class LogoComponent {
+  logoImage: string = '../../../assets/icons/logo.png';
+  smallLogoImage: string = '../../../assets/icons/SmallLogo.png';
   isLogoToggled: boolean = false;
 
   toggleLogo() {
